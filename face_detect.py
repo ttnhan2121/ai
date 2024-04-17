@@ -64,7 +64,7 @@ while True:
         frame_with_faces = detect_faces(frame)
 
         # Compare faces with images in folder
-        image_folder = "/Users/nhantran/Documents/AI/AI test/ai/image"
+        image_folder = "/Users/ttnhan/Documents/GitHub/ai/image"
         compare_faces(frame, image_folder)
 
         # Display the result
